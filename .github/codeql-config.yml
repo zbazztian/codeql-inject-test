@@ -1,0 +1,4 @@
+disable-default-queries: true
+packs:
+  java:
+    - zbazztian/modified-java-queries-test-ongoing
