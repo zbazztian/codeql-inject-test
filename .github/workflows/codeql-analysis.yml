@@ -3,8 +3,8 @@ name: "CodeQL"
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:   # run every Monday morning at 11am Bangkok time (4am wherever the machine is running)
+    - cron: '0 4 * * 1'
 
 jobs:
   analyze:
